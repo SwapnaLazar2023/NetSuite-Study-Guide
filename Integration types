@@ -1,0 +1,11 @@
+NetSuite support 3 types of integration.
+
+1. SOAP request  - standard
+2. REST API  - standard
+3. Custom API (suitelet and restlet) 
+              - More flexibility
+              - Cons: Concurrency, only 5 call at a time. To manage this a queue system needs to be doen in the calling centre. 
+                                                          Or we may use scheduled script for fetching data from their end  using their API.
+                         - Webhooks cannot call this API.
+                     
+                  
